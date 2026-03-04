@@ -1,0 +1,17 @@
+{
+  "donation": {
+    "enabled": true,
+    "platform": "paypal",
+    "username": "mad10079",
+    "custom_url": null,
+    "message": "Your support helps keep this project alive! 🚀"
+  },
+  "donation_platforms": {
+    "buymeacoffee": "https://buymeacoffee.com/{username}",
+    "paypal": "https://paypal.me/{username}",
+    "kofi": "https://ko-fi.com/{username}",
+    "github": "https://github.com/sponsors/{username}",
+    "patreon": "https://patreon.com/{username}",
+    "custom": "{custom_url}"
+  }
+}

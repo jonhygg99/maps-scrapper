@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyInstaller
+dist/
+build/
+*.spec.bak
+*.manifest
+*.exe
+*.app
+
+# Project specific
+output/*.csv
+output/*.xlsx
+logs/*.log
+logs/*.png
+config/proxies.txt
+.env
+
+# Keep directories
+!output/.gitkeep
+!logs/.gitkeep
+project_info.html
+
+# Node.js
+node_modules/
+package.json
+package-lock.json
