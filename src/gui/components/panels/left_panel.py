@@ -3,6 +3,7 @@ Left panel component containing input controls and settings
 """
 import customtkinter as ctk
 from src.gui.styles import COLORS, FONTS, get_button_style
+from src.core.config import Config
 
 
 class LeftPanel(ctk.CTkFrame):
@@ -59,7 +60,7 @@ class LeftPanel(ctk.CTkFrame):
         threads_label.grid(row=1, column=0, padx=5, pady=5, sticky="w")
         
         self.threads_entry = ctk.CTkEntry(settings_frame, width=80)
-        self.threads_entry.insert(0, "3")
+        self.threads_entry.insert(0, str(Config.get('max_threads', 3)))
         self.threads_entry.grid(row=1, column=1, padx=5, pady=5, sticky="ew")
         
         settings_frame.grid_columnconfigure(1, weight=1)
@@ -180,7 +181,7 @@ class LeftPanel(ctk.CTkFrame):
         try:
             return int(self.threads_entry.get())
         except ValueError:
-            return 3
+            return Config.get('max_threads', 3)
     
     def get_use_proxy(self):
         """Get proxy setting"""

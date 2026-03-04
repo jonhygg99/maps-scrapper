@@ -27,6 +27,8 @@ build/
 output/*.csv
 output/*.xlsx
 logs/*.log
+src/logs/
+*.log
 logs/*.png
 config/proxies.txt
 .env

@@ -1,7 +1,0 @@
-2026-03-04 16:23:10 - root - INFO - Logging initialized - Log file: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\src\logs\scraper_20260304_162310.log
-2026-03-04 16:23:10 - CSVExporter - INFO - Exported 1 records to C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.csv
-2026-03-04 16:23:10 - ExporterFactory - INFO - Successfully exported data to CSV format: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.csv
-2026-03-04 16:23:10 - ExcelExporter - INFO - Exported 1 records to C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.xlsx
-2026-03-04 16:23:10 - ExporterFactory - INFO - Successfully exported data to EXCEL format: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.xlsx
-2026-03-04 16:23:10 - JSONExporter - INFO - Exported 1 records to C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.json
-2026-03-04 16:23:10 - ExporterFactory - INFO - Successfully exported data to JSON format: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\test.json
