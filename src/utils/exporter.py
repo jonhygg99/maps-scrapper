@@ -55,18 +55,24 @@ class DataExporter:
         filepath = output_dir / filename
         
         try:
-            # Get all unique keys from all dictionaries
-            fieldnames = set()
-            for item in data:
-                fieldnames.update(item.keys())
-            
-            fieldnames = sorted(list(fieldnames))
+            # Define fixed column order as requested
+            fieldnames = ['name', 'category', 'phone', 'website', 'reviews', 'rating', 'address', 
+                         'hours', 'introduction', 'in_store_pickup', 'price_level', 'store_delivery', 'store_shopping']
             
             # Write CSV
             with open(filepath, 'w', newline='', encoding='utf-8-sig') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
-                writer.writerows(data)
+                
+                # Filter data to only include requested fields
+                filtered_data = []
+                for item in data:
+                    filtered_item = {}
+                    for field in fieldnames:
+                        filtered_item[field] = item.get(field, '')
+                    filtered_data.append(filtered_item)
+                
+                writer.writerows(filtered_data)
             
             logger.info(f"Exported {len(data)} records to {filepath}")
             return str(filepath)
