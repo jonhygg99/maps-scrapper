@@ -1,0 +1,49 @@
+2026-03-04 16:41:35 - root - INFO - Logging initialized - Log file: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\src\logs\scraper_20260304_164135.log
+2026-03-04 16:41:35 - Main - INFO - ==================================================
+2026-03-04 16:41:35 - Main - INFO - Google Maps Scraper Started
+2026-03-04 16:41:35 - Main - INFO - ==================================================
+2026-03-04 16:41:35 - MainWindow - INFO - Application started
+2026-03-04 16:41:57 - MainWindow - INFO - 🚀 Starting scraping for 1 queries
+2026-03-04 16:41:57 - MainWindow - INFO - 📊 Settings: 2 results per query, 1 threads
+2026-03-04 16:41:57 - WorkerPool - INFO - Starting 1 workers
+2026-03-04 16:41:57 - Worker-0 - INFO - Worker 0 started
+2026-03-04 16:41:57 - MainWindow - INFO - Started 1 worker threads for 1 queries
+2026-03-04 16:41:57 - Worker-0 - INFO - Worker 0 processing: restaurants in New York
+2026-03-04 16:41:57 - GoogleMapsScraper - INFO - Using Windows desktop user agent
+2026-03-04 16:41:57 - GoogleMapsScraper - INFO - Browser initialized successfully
+2026-03-04 16:41:58 - GoogleMapsScraper - INFO - Searching for: restaurants in New York
+2026-03-04 16:42:06 - MainWindow - ERROR - Could not load settings.json: [Errno 2] No such file or directory: 'C:\\Users\\jonhy\\StudioProjects\\mad_google_map_extractor\\src\\config\\settings.json'
+2026-03-04 16:42:06 - GoogleMapsScraper - INFO - Clicking consent button: button:has-text("Accept all")
+2026-03-04 16:42:08 - GoogleMapsScraper - INFO - + New desktop interface loaded (with input[name='q'])
+2026-03-04 16:42:08 - GoogleMapsScraper - INFO - + Found new search input: input[name="q"][role="combobox"]
+2026-03-04 16:42:11 - MainWindow - ERROR - Could not load proxies.txt: [Errno 2] No such file or directory: 'C:\\Users\\jonhy\\StudioProjects\\mad_google_map_extractor\\src\\config\\proxies.txt'
+2026-03-04 16:42:13 - GoogleMapsScraper - INFO - Search query submitted via new interface
+2026-03-04 16:42:13 - GoogleMapsScraper - INFO - Waiting for search results to load...
+2026-03-04 16:42:15 - GoogleMapsScraper - INFO - Results feed loaded
+2026-03-04 16:42:20 - GoogleMapsScraper - INFO - Search completed successfully for: restaurants in New York
+2026-03-04 16:42:20 - GoogleMapsScraper - INFO - Extracting up to 2 results
+2026-03-04 16:42:20 - GoogleMapsScraper - INFO - Waiting for place listings...
+2026-03-04 16:42:23 - GoogleMapsScraper - INFO - Place listings found
+2026-03-04 16:42:24 - GoogleMapsScraper - INFO - Scrolling to load 2 results...
+2026-03-04 16:42:24 - GoogleMapsScraper - INFO - Currently found: 8 listings
+2026-03-04 16:42:24 - GoogleMapsScraper - INFO - Reached target of 2 listings
+2026-03-04 16:42:24 - GoogleMapsScraper - INFO - Total found: 8, processing: 2
+2026-03-04 16:42:24 - GoogleMapsScraper - INFO - Processing listing 1/2
+2026-03-04 16:42:26 - GoogleMapsScraper - INFO - + Extracted: 230 Fifth Rooftop Bar
+2026-03-04 16:42:27 - GoogleMapsScraper - INFO - Processing listing 2/2
+2026-03-04 16:42:41 - GoogleMapsScraper - INFO - + Extracted: 33 Hotel New York City Seaport
+2026-03-04 16:42:42 - GoogleMapsScraper - INFO - Successfully extracted 2 results
+2026-03-04 16:42:42 - GoogleMapsScraper - INFO - Browser closed successfully
+2026-03-04 16:42:42 - Worker-0 - INFO - Worker 0 completed: restaurants in New York
+2026-03-04 16:42:42 - MainWindow - INFO - ✅ restaurants in New York: 2 results extracted
+2026-03-04 16:42:42 - CSVExporter - INFO - Exported 2 records to C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\restaurants_in_New_York_20260304_164242.csv
+2026-03-04 16:42:42 - ExporterFactory - INFO - Successfully exported data to CSV format: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\restaurants_in_New_York_20260304_164242.csv
+2026-03-04 16:42:42 - MainWindow - INFO - 💾 Saved restaurants in New York results to: restaurants_in_New_York_20260304_164242.csv
+2026-03-04 16:42:56 - MainWindow - INFO - Opened output folder: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output
+2026-03-04 16:43:14 - MainWindow - INFO - 🛑 Force stopping all workers...
+2026-03-04 16:43:14 - WorkerPool - INFO - Stopping all workers (forced)
+2026-03-04 16:43:14 - WorkerPool - INFO - All workers force-stopped (daemon threads)
+2026-03-04 16:43:14 - MainWindow - INFO - ⏹️ Scraping force-stopped by user
+2026-03-04 16:43:14 - MainWindow - INFO - Application closing
+2026-03-04 16:43:14 - Main - INFO - Application closed
+2026-03-04 16:43:14 - Worker-0 - INFO - Worker 0 stopped
