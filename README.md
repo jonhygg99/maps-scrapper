@@ -91,7 +91,7 @@ python main.py
 
 Want to support development?
 
-[![Contribute via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/mad10079/10/)
+[![Contribute via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/ByChickenLittle/10/)
 
 ---
 
