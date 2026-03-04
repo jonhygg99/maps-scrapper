@@ -6,7 +6,7 @@ import asyncio
 import random
 from typing import List, Dict, Optional
 from playwright.async_api import async_playwright, Page, Browser, BrowserContext
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 from src.scraper.stealth import apply_stealth_techniques
 
 

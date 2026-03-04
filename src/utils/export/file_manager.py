@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Optional
 from datetime import datetime
 from src.core.config import Config
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 class FileManager:

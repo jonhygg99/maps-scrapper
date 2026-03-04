@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from src.gui.main_window import MainWindow
 from src.gui.styles import apply_theme
 from src.core.config import Config
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 def main():

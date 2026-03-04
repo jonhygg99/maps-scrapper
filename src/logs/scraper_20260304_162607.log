@@ -1,0 +1,47 @@
+2026-03-04 16:26:07 - root - INFO - Logging initialized - Log file: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\src\logs\scraper_20260304_162607.log
+2026-03-04 16:26:07 - Main - INFO - ==================================================
+2026-03-04 16:26:07 - Main - INFO - Google Maps Scraper Started
+2026-03-04 16:26:07 - Main - INFO - ==================================================
+2026-03-04 16:26:07 - MainWindow - INFO - Application started
+2026-03-04 16:26:19 - MainWindow - INFO - 🚀 Starting scraping for 1 queries
+2026-03-04 16:26:19 - MainWindow - INFO - 📊 Settings: 2 results per query, 1 threads
+2026-03-04 16:26:19 - WorkerPool - INFO - Starting 1 workers
+2026-03-04 16:26:19 - Worker-0 - INFO - Worker 0 started
+2026-03-04 16:26:19 - MainWindow - INFO - Started 1 worker threads for 1 queries
+2026-03-04 16:26:19 - Worker-0 - INFO - Worker 0 processing: restaurants in New York
+2026-03-04 16:26:19 - GoogleMapsScraper - INFO - Using Windows desktop user agent
+2026-03-04 16:26:19 - GoogleMapsScraper - INFO - Browser initialized successfully
+2026-03-04 16:26:19 - GoogleMapsScraper - INFO - Searching for: restaurants in New York
+2026-03-04 16:26:24 - GoogleMapsScraper - INFO - Clicking consent button: button:has-text("Accept all")
+2026-03-04 16:26:25 - GoogleMapsScraper - INFO - + New desktop interface loaded (with input[name='q'])
+2026-03-04 16:26:25 - GoogleMapsScraper - INFO - + Found new search input: input[name="q"][role="combobox"]
+2026-03-04 16:26:31 - GoogleMapsScraper - INFO - Search query submitted via new interface
+2026-03-04 16:26:31 - GoogleMapsScraper - INFO - Waiting for search results to load...
+2026-03-04 16:26:32 - GoogleMapsScraper - INFO - Results feed loaded
+2026-03-04 16:26:37 - GoogleMapsScraper - INFO - Search completed successfully for: restaurants in New York
+2026-03-04 16:26:37 - GoogleMapsScraper - INFO - Extracting up to 2 results
+2026-03-04 16:26:37 - GoogleMapsScraper - INFO - Waiting for place listings...
+2026-03-04 16:26:40 - GoogleMapsScraper - INFO - Place listings found
+2026-03-04 16:26:41 - GoogleMapsScraper - INFO - Scrolling to load 2 results...
+2026-03-04 16:26:41 - GoogleMapsScraper - INFO - Currently found: 8 listings
+2026-03-04 16:26:41 - GoogleMapsScraper - INFO - Reached target of 2 listings
+2026-03-04 16:26:41 - GoogleMapsScraper - INFO - Total found: 8, processing: 2
+2026-03-04 16:26:41 - GoogleMapsScraper - INFO - Processing listing 1/2
+2026-03-04 16:26:43 - GoogleMapsScraper - INFO - + Extracted: 230 Fifth Rooftop Bar
+2026-03-04 16:26:44 - GoogleMapsScraper - INFO - Processing listing 2/2
+2026-03-04 16:26:50 - GoogleMapsScraper - INFO - + Extracted: Sicily Osteria
+2026-03-04 16:26:51 - GoogleMapsScraper - INFO - Successfully extracted 2 results
+2026-03-04 16:26:51 - GoogleMapsScraper - INFO - Browser closed successfully
+2026-03-04 16:26:51 - Worker-0 - INFO - Worker 0 completed: restaurants in New York
+2026-03-04 16:26:51 - MainWindow - INFO - ✅ restaurants in New York: 2 results extracted
+2026-03-04 16:26:51 - CSVExporter - INFO - Exported 2 records to C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\restaurants_in_New_York_20260304_162651.csv
+2026-03-04 16:26:51 - ExporterFactory - INFO - Successfully exported data to CSV format: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output\restaurants_in_New_York_20260304_162651.csv
+2026-03-04 16:26:51 - MainWindow - INFO - 💾 Saved restaurants in New York results to: restaurants_in_New_York_20260304_162651.csv
+2026-03-04 16:27:01 - MainWindow - INFO - Opened output folder: C:\Users\jonhy\StudioProjects\mad_google_map_extractor\output
+2026-03-04 16:27:35 - MainWindow - INFO - 🛑 Force stopping all workers...
+2026-03-04 16:27:35 - WorkerPool - INFO - Stopping all workers (forced)
+2026-03-04 16:27:35 - WorkerPool - INFO - All workers force-stopped (daemon threads)
+2026-03-04 16:27:35 - MainWindow - INFO - ⏹️ Scraping force-stopped by user
+2026-03-04 16:27:36 - Worker-0 - INFO - Worker 0 stopped
+2026-03-04 16:27:37 - MainWindow - INFO - Application closing
+2026-03-04 16:27:37 - Main - INFO - Application closed

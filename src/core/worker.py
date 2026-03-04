@@ -6,7 +6,7 @@ import threading
 import queue
 import asyncio
 from typing import Callable, Any, Optional
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 class ScraperWorker(threading.Thread):

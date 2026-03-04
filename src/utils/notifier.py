@@ -26,18 +26,8 @@ class Notifier:
         timeout: int = 10,
         app_icon: Optional[str] = None
     ) -> bool:
-        """
-        Show a desktop notification
-        
-        Args:
-            title: Notification title
-            message: Notification message
-            timeout: How long to show notification (seconds)
-            app_icon: Path to icon file (optional)
-            
-        Returns:
-            True if notification was sent, False otherwise
-        """
+        """Show a desktop notification"""
+
         if not NOTIFICATIONS_AVAILABLE:
             logging.debug(f"Notification skipped (plyer not available): {title} - {message}")
             return False

@@ -14,9 +14,9 @@ from src.core.worker import WorkerPool
 from src.core.config import Config
 from src.scraper.google_maps import GoogleMapsScraper
 from src.scraper.proxy_manager import ProxyManager
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 from src.utils.data_processing import DataProcessor
-from src.utils.exporter import DataExporter
+from src.utils.export import DataExporter
 from src.utils.notifier import Notifier
 import json
 

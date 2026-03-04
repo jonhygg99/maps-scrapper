@@ -4,7 +4,7 @@ Provides modular components for data validation, cleaning, and transformation.
 The DataProcessor class serves as the main interface for backward compatibility.
 """
 from typing import List, Dict, Optional
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 # Import all modular components
 from .base import BaseProcessor, BaseValidator, BaseCleaner, BaseTransformer

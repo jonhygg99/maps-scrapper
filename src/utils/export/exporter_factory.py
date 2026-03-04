@@ -9,7 +9,7 @@ from .csv_exporter import CSVExporter
 from .excel_exporter import ExcelExporter
 from .json_exporter import JSONExporter
 from .config import ExportConfig
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 class ExporterFactory:

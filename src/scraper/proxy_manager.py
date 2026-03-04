@@ -5,7 +5,7 @@ Handles proxy validation and rotation
 import random
 from typing import List, Optional
 import httpx
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 from src.core.config import Config
 
 

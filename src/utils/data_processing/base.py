@@ -3,7 +3,7 @@ Base classes for data processing components.
 """
 from abc import ABC, abstractmethod
 from typing import Any, Optional, Dict, List
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 class BaseProcessor(ABC):

@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Optional, List, Dict
 from pathlib import Path
 from dataclasses import dataclass
-from src.utils.logger import Logger
+from src.utils.logging import Logger
 
 
 @dataclass
