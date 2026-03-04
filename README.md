@@ -43,10 +43,6 @@ Below are some screenshots of Google Maps Scraper Pro in action:
 ### Installation
 
 ```powershell
-# Clone the repo and enter the folder
-
-cd mad_google_map_extractor
-
 # Create and activate a virtual environment
 python -m venv env
 .\env\Scripts\Activate.ps1
